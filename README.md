@@ -82,8 +82,4 @@ Real Captions:
 <p>The following image demonstrates how the attention mechanism focuses on different parts of the image while generating each word in the caption:</p>
 <img src="attention_map.png" alt="Attention Map" width="500"/>
 
-<h2>Future Work</h2>
-<ul>
-  <li>Improve the model by using larger datasets and more advanced architectures like Transformer models.</li>
-  <li>Integrate a real-time application for image captioning, possibly using a web interface.</li>
-</ul>
+
