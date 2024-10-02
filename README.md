@@ -21,24 +21,6 @@
   <li>attention.png: Attention map visualization for sample image.</li>
 </ul>
 
-<h2>Installation</h2>
-<ol>
-  <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-repository/image-captioning-with-attention.git
-cd image-captioning-with-attention</code></pre>
-  </li>
-  <li>Install the required dependencies:
-    <pre><code>pip install -r requirements.txt</code></pre>
-  </li>
-  <li>Download the dataset and place it inside the <strong>Flickr8k_Dataset</strong> folder.</li>
-  <li>Run the training:
-    <pre><code>python train.py</code></pre>
-  </li>
-  <li>To evaluate and generate captions on your own images:
-    <pre><code>python evaluate.py</code></pre>
-  </li>
-</ol>
-
 <h2>Model Architecture</h2>
 <p>The architecture consists of a pre-trained VGG16 model used for image feature extraction and a custom RNN model with Bahdanau Attention to generate captions. The attention mechanism helps the model focus on specific parts of the image while generating the corresponding words.</p>
 
